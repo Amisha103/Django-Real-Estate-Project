@@ -6,4 +6,4 @@ services:
     startCommand: "gunicorn DJANGO-REAL-ESTATE-MANAGEMENT-WEBAPP.wsgi:application"
     envVars:
       - key: DJANGO_SETTINGS_MODULE
-        value: DJANGO-REAL-ESTATE-MANAGEMENT-WEBAPP.settings
+        value: coralcity.settings
